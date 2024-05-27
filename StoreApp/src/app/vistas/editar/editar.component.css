@@ -1,0 +1,13 @@
+button{
+    margin: 20px 10px 10px 0px;
+    padding: 10px 15px 10px 15px;
+  }
+
+  label{
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  input{
+    margin-top: 5px;
+  }

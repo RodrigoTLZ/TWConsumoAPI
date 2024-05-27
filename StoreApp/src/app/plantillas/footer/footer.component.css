@@ -1,0 +1,14 @@
+footer{
+position: fixed;
+height: 40px;
+bottom: 0;
+width: 100%;
+background-color: #0d6efd;
+color: white;
+}
+
+.contenedorfoot{
+    text-align: center;
+    vertical-align:middle;
+    margin-top: 6px;
+}

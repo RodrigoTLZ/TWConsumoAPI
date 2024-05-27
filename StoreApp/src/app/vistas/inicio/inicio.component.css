@@ -1,0 +1,54 @@
+body {
+    background-color: #D1D8C5;
+    font-family: 'Arial', sans-serif;
+  }
+  .table-container {
+    margin: 50px auto;
+    max-width: 1200px;
+  }
+  .table {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .table thead {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  .table img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .header h1 {
+    font-size: 2.5em;
+    color: #343a40;
+  }
+  .header p {
+    font-size: 1.2em;
+    color: #6c757d;
+  }
+
+  .titulo-producto{
+    font-weight: bold;
+  }
+
+  .titulo-tabla{
+    font-size: 25px;
+    text-align: center;
+
+  }
+
+  .precio-producto{
+    font-weight: bold;
+    color: green;
+  }

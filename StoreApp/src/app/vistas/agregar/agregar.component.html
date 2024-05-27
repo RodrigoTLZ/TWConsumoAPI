@@ -1,0 +1,37 @@
+<app-header></app-header>
+<div class="container">
+    <form [formGroup]="agregarForm" (ngSubmit)="postForm()">
+        <label for="">Nombre</label>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Nombre del producto"
+          formControlName="title"
+        />
+        <label for="">Descripcion</label>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Descripcion del producto"
+          formControlName="description"
+        />
+        <label for="">Precio</label>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Precio del producto"
+          formControlName="price"
+        />
+        <label for="">Imagen</label>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Imagen del producto"
+          formControlName="image"
+        />
+    
+        <button type="submit" class="btn btn-primary">Guardar</button>
+        <button type="button" class="btn btn-dark" (click)="regresar()">Regresar</button>
+      </form>
+</div>
+<app-footer></app-footer>
